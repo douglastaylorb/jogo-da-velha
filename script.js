@@ -11,7 +11,9 @@ let playing = false;
 
 reset()
 
+
 //EVENTS
+
 document.querySelector('.reset').addEventListener('click', reset);
 document.querySelectorAll('.item').forEach(item => {
     item.addEventListener('click', itemClick);
@@ -33,8 +35,6 @@ function togglePlayer() {
     player = (player === 'x') ? 'o' : 'x';
     renderInfo();
 }
-
-
 
 function reset() {
     warning = '';
@@ -109,7 +109,6 @@ function isFull() {
     return true;
 
 }
-
 
 function renderInfo() {
     document.querySelector('.vez').innerHTML = player;

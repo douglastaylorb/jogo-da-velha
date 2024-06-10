@@ -81,3 +81,12 @@ h1 {
     padding: 10px;
     margin-top: 20px;
 }
+
+.reset:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #CCC;
+}
+
+.reset:active {
+    background-color: rgba(0, 0, 0, 0);
+}
